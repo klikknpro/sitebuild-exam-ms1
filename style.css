@@ -41,8 +41,52 @@ input,
 textarea,
 select {
   appearance: none !important;
-  -webkit-appearance: none !important; /* safari, opera, chrome miatt */
+  -webkit-appearance: none !important;
   border-radius: 0;
 }
 
 /* CSS reset */
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#one {
+  background-color: #67a9f5;
+}
+
+#two {
+  background-color: #4f78a8;
+}
+
+#buttonOne {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #e7f598;
+  transform: translate(-50%, -50%);
+}
+
+#buttonTwo {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  width: 200px;
+  height: 60px;
+  background-color: #a84f47;
+}
+
+#buttonThree {
+  position: absolute;
+  bottom: 40px;
+  left: 50vw;
+  width: 200px;
+  height: 60px;
+  background-color: #f5897f;
+  transform: translate(-50%);
+}
